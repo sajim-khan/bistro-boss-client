@@ -4,12 +4,12 @@ import './Featured.css'
 
 const Featured = () => {
   return (
-    <div className="featured-item my-10 py-6">
+    <div className="featured-item bg-fixed my-10 py-6 ">
       <SectionTitle
         heading={"Check It Out"}
         subHeading={"Featured Item"}
       ></SectionTitle>
-      <div className="md:flex w-full justify-center items-center py-20 px-40 md:gap-16 text-white">
+      <div className="md:flex w-full justify-center items-center bg-slate-500 opacity-80 py-20 px-40 md:gap-16 text-white ">
         <div className="w-1/2">
           <img src={img} alt="" />
         </div>
@@ -21,7 +21,7 @@ const Featured = () => {
             asperiores tempora non necessitatibus eaque dolor maxime vero autem,
             facere sit?
           </p>
-          <button className="btn btn-outline">Read More</button>
+          <button className="btn btn-outline border-0 border-b-4 my-3 text-2xl">Read More</button>
         </div>
       </div>
     </div>
