@@ -112,10 +112,11 @@ const Login = () => {
                 {/* <button className="btn btn-outline btn-xs mt-2">
                   Validate
                 </button> */}
+                {/* todo: make button disabled for captcha */}
               </div>
               <div className="form-control mt-6">
                 <input
-                  disabled={disabled}
+                  disabled={false}
                   className="btn btn-primary"
                   type="submit"
                   value="Login"
