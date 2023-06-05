@@ -29,7 +29,7 @@ const [cart] = useCart()
         <Link to="/secret">Secret</Link>
       </li>
       <li>
-        <Link>
+        <Link to='/dashboard/mycart'>
           <button className="btn">
             <FaShoppingCart></FaShoppingCart>
             <div className="badge badge-secondary ms-1 -mt-2">+{cart?.length || 0}</div>
